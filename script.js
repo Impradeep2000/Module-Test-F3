@@ -116,7 +116,7 @@ search.addEventListener("blur",(event)=>{
     let searchInput = search.value;
     let searchData = [];
     array.forEach((element)=>{
-        if(searchInput.trim()==element.Name.trim() || searchInput.trim()==element.BranchType.trim()){
+        if(searchInput.trim().toLowerCase()==element.Name.trim().toLowerCase() || searchInput.trim().toLowerCase()==element.BranchType.trim().toLowerCase()){
                 searchData.push(element);   
         }
     });
