@@ -67,7 +67,6 @@ function renderData(data){
     let long = data.longitude;
     let pin = data.postal;
     renderPostOfficeData(pin);
-    // document.getElementById("map").setAttribute("src",`https://maps.google.com/maps/?q=${lat},${long}&output=embed`);
     renderMap(lat,long);
 }
 const mapContainer = document.getElementById("map-container");
@@ -121,7 +120,8 @@ search.addEventListener("blur",(event)=>{
                 searchData.push(element);   
         }
     });
-    renderPostals(searchData);
+    if(searchInput === "") renderPostals(array);
+    else renderPostals(searchData);
 })
 
 
