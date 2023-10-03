@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Inter:wght@200;400&family=Montserrat:wght@400;600&family=Mulish&family=Open+Sans:ital,wght@0,500;0,600;0,700;1,400&family=Poppins&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Inter&family=Montserrat:wght@400;600&family=Mulish&family=Open+Sans:ital,wght@0,500;0,600;0,700;1,400&family=Poppins&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* display: none; */
+    display: flex;
+}
+#heading{
+    font-weight:700;
+    font-size: 36px;
+    line-height: 43.88px;
+}
+#para{
+    font-family: 'Inter', sans-serif;
+    color: #b8bccc;
+    font-weight:400;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+.left-container{
+    background-color: black;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: #575a85;
+    /* padding: 0px 50px; */
+    /* gap: 150px; */
+}
+.head{
+    /* border: 1px solid red; */
+    top: 0px;
+    position: absolute;
+    padding: 40px 50px;
+}
+.img{
+    margin-top: 150px;
+    /* border: 1px solid blue; */
+}
+.right-container{
+    width: 50%;
+    background-color: #575a85;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 0px 20px;
+}
+.right-container p{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.57px;
+    color: #b8bccc;
+}
+.ip-address{
+    color: white;
+}
+#submit-btn{
+    height: 67px;
+    width: 345px;
+    background-color: transparent;
+    border: 2px solid #b8bccc;
+    border-radius: 10px;
+    color: #b8bccc;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33.89px;
+}
+#submit-btn:hover{
+    cursor: pointer;
+}
+
+
+
+.data-container{
+    background-color: black;
+    width: auto;
+    height: auto;
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    color: white;
+    padding: 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+}
+.data{
+    padding: 50px 0px;
+    display: inherit;
+    flex-direction: column;
+    /* border: 1px solid white; */
+}
+.data p{
+    color: #5c5e66;
+}
+.data span{
+    color: white;
+}
+.ipadd{
+    padding: 20px 0px;
+    padding-left: 100px;
+}
+.info{
+    display: flex;
+    gap: 20px;
+    /* border: 1px solid blue; */
+    justify-content: space-around;
+}
+.map-container{
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 950px;
+    background-color: #575a85;
+    gap: 30px;
+}
+.info-container{
+    display: inherit;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 30px;
+}
+.poinfo{
+    display: inherit;
+    flex-direction: column;
+    text-align: left;
+    gap: 30px;
+}
+.post-office-data{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    /* padding: 20px 0px; */
+}
+.icon{
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+#search{
+    height: 60px;
+    width: 1700px;
+    background-color: black;
+    border: 2px solid #575a85;
+    border-radius: 10px;
+    padding-left: 60px;
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 80px;
+    padding: 60px 0px;
+    height: auto;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    height: 350px;
+    width: 680px;
+    background-color: #575a85;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 50px 0px 0px 50px;
+}
+.color{
+    color: #b8bccc;
+}
+.data span{
+    color: #b8bccc;
+}
+.poinfo p{
+    color: #5c5e66;
+}
